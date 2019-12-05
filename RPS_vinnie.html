@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissor</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+
+<body>
+<div id="red" >
+    <h1> <p>Human vs. Robots</p></h1>
+    <hr>
+    <p><h2> Tutorial</h2></p>
+    <p>It's year 2500. Artifical Intelligent has became too powerful that they decided to take over the world. As a fellow citizen of this planet, it's your responsibility to defend the against the uprising of the robots. But before you go into battle, you are leveraging off your animal alliances in this battle against the AI' robot alliances. </p>
+    <p>Rules are simple: Cat beats Mouse, Mouse beats Elephant,and Elephant beats Cat. You choose your animal, and robots will choose theirs. If your chosen animal beats theirs, you win the round. Vice versa, if your animal is defeated by theirs, you lose the round. Draw happens when you both choose the same animal, hence there will be no score for either side.</p>
+    <p>Your mission now is to win 2 rounds before the robots do in order to defend Earth. Choose wisely!</p>
+    <button id="showBlue"><h3>Play</h3></button>
+</div>
+
+    
+
+<div id="blue" >
+    <h2 id="easteregg"> Play Screen</h2>
+    <p> Pick your Animal!</p>
+    <hr>
+    <h2>HUMANS</h2>
+    <div class ="uncommon">
+        <div class="human"> <img id="0" src="Images/cat2.jpg" alt= "Cat" width="150" height="150"></div>
+        <div class="human"> <img id="1" src="Images/mouse.jpg" alt= "Mouse" width="150" height="150"></div>
+        <div class="human"> <img id="2"src="Images/elephant2.jpg" alt= "Elephant" width="150" height="150"></div> <br><br>
+        <div> <img id="random" src="Images/dice.png" alt= "Dice" width="60" height="60"></div>
+    </div>
+    <hr>
+    <h2>ROBOTS</h2>
+    <div class ="uncommon">
+        <div class ="robot"><img id="0" src="Images/robotcat2.jpg" alt= "Robot Cat" width="150" height="150"></div>
+        <div class ="robot"><img id="1" src="Images/robotmouse.jpg" alt= "Robot Mouse" width="150" height="150"></div>
+        <div class ="robot"><img id="2" src="Images/robotelephant3.jpg" alt= "Robot Elephant" width="150" height="150"></div>
+    </div>  
+    <br><br>
+    <button id="showRed" style="float:right">Back to Main Menu</button>
+    
+</div>
+
+<div id="yellow">
+    <h3>Round</h3>
+    <p id="round">This is your time</p>
+</div>
+
+<div id="purple">
+    <h3>Scoreboard</h3>
+    <h4>Robot</h4><p id="robotscore">show score</p>
+    <h4>Human</h4><p id="humanscore">show score</p>
+</div>
+
+<div id="pink">
+    <h3>Battle Log</h3>
+    <p id="log">The progress... </p>
+    <p id="log2"></p>
+</div>
+
+<div id="end1" >
+    <h1> <p>Human vs. Robots</p></h1>
+    <hr>
+    <h2> Ending</h2>
+    <div id="endingstyle">
+        <br>
+        <p> Roses are red </p>
+        <p>They have thorns too</p> 
+        <p>Don't ever doubt yourself </p>   
+        <p>The New Champion is you!</p> 
+    </div>
+</div>
+
+<div id="end2">
+    <h1> <p> Human vs. Robots</p></h1>
+    <hr>
+    <h2>Ending</h2>
+    <div id="endingstyle">
+        <br>
+        <p>Roses are red </p> 
+        <p>Violet are blue</p>
+        <p>You have tried your best</p>
+        <p>But robots have beaten you</p> 
+        <p>Try Again?</p>   
+    </div>
+</div>
+
+
+<script src="myscript.js"></script>
+<script src="myscript2.js"></script>
+
+</body>
+</html>

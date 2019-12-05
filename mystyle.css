@@ -1,0 +1,128 @@
+
+    body {
+        font-family: arial, helvetica, sans-serif;
+        width:1150px;    	
+        margin : 40px auto;
+        background-image: url("Images/rose.jpg");
+    }
+
+    #red {
+        background-color: #ff9999;
+        background-blend-mode: soft-light;
+        display: block;
+        width: 500px;
+        height : 500px;
+        text-align: center;
+        padding : 20px;
+        margin:auto;
+        border: 3px solid #48720d;
+    }
+
+    #blue {
+        background-color: #7292f1;
+        background-blend-mode: soft-light;
+        display: none;
+        text-align:center;
+        margin-top: 10px;
+        margin-right:20px;
+        margin-bottom:10px;
+        margin-left: 40px;
+        padding: 10px;
+        border: 3px solid #48720d;
+        float: center;
+    }
+    
+    #yellow {
+        background-color: #ffff80 ;
+        background-blend-mode: soft-light;
+        display: none;    
+        width: auto;
+        height : auto;
+        text-align: center;
+        padding : 20px;
+        margin: 10px;
+        float : left; 
+        border: 3px solid #48720d;  
+        }
+    #purple {
+        background-color:#c582c5 ;
+        background-blend-mode: soft-light;
+        display: none;    
+        width: auto;
+        height : auto;
+        text-align: center;
+        padding : 20px;
+        float : right;  
+        margin: 10px;
+        border: 3px solid #48720d;
+            }
+    #pink {
+        background-color:#ebb7c1 ;
+            background-blend-mode: lighten;
+            display: none;    
+            width: auto;
+            height : auto;
+            text-align: center;
+            padding : 20px;
+            float : right;  
+            margin: -400px 10px 50px 10px;
+            border: 3px solid #48720d;
+    }
+    .human {
+		display: inline;
+		padding: 10px;
+		cursor: pointer;
+        margin:10px;
+		}    
+  
+    .robot {
+		display: inline;
+		padding: 10px;
+		cursor: pointer;
+        margin:10px;
+        }
+        
+
+    .uncommon {
+        display : inline;
+        margin : 10px ;
+        }
+
+    .realcommon {
+        text-align: center;
+        padding : 50px; 
+        display : inline;
+        background-color: whitesmoke;
+        margin : 10px ;
+       
+        }
+
+    img {
+        border-radius: 8px;
+        border: 2px solid #cacaca;
+        }
+
+    #end1 {
+        background-color: #7faa42;
+        display: none;
+        width: 500px;
+        height : 500px;
+        text-align: center;
+        padding : 20px;
+        margin:auto;
+        border: 3px solid #48720d;
+        }
+    
+    #end2 {
+        background-color: #ffedbc;
+        display: none;
+        width: 500px;
+        height : 500px;
+        text-align: center;
+        padding : 20px;
+        margin:auto;
+        border: 3px solid #48720d;
+        }  
+    #endingstyle {
+        font-size: 30px;
+    }
